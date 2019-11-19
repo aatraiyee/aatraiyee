@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a, b, Add, Subtract, Multiply;
+float Divide;
+printf ("Enter two numbers a and b \n:");
+scanf ("%d%d",&a,&b);
+Add = a+b;
+Subtract = a-b;
+Multiply = a*b;
+Divide = a/b;
+printf (“Add= %d \n “, Add);
+printf (“Subtract = %d \n”, Subtract);
+printf (“Multiply = %d \n”, Multiply);
+printf (“Divide = %d \n”, Divide);
+return 0;
+}
+
+
+
+
+
+OUTPUT-
+Enter two numbers a and b 10 5
+Add = 15
+Subtract = 5
+Multiply = 50
+ Divide = 2
